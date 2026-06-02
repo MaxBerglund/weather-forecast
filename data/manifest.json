@@ -1,0 +1,24 @@
+{
+    "train": {
+        "path": "/home/maxb/rebase/hack/data/train.parquet",
+        "rows": 83992,
+        "columns": [
+            "timestamp",
+            "temperature"
+        ],
+        "start_date": "2016-06-02T08:00:00+00:00",
+        "end_date": "2025-12-31T23:00:00+00:00"
+    },
+    "test": {
+        "path": "/home/maxb/rebase/hack/data/test.parquet",
+        "rows": 3657,
+        "columns": [
+            "timestamp",
+            "temperature"
+        ],
+        "start_date": "2026-01-01T00:00:00+00:00",
+        "end_date": "2026-06-02T08:00:00+00:00"
+    },
+    "station_id": "98230",
+    "station_name": "Stockholm-Observatoriekullen A"
+}
